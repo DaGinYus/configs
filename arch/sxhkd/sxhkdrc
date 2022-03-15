@@ -123,3 +123,12 @@ super + alt + shift + {h,j,k,l}
 # move a floating window
 super + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
+
+
+#
+# screenshotting software (emulates Apple keybindings)
+#
+
+# save region to clipboard
+ctrl + shift + 4
+        maim -s | xclip -selection clipboard -t image/png

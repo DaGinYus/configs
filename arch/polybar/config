@@ -86,9 +86,9 @@ label-maxlen = 50
 type = custom/menu
 
 format-font = 3
-format-spacing = 1
+format-spacing = 10pt
 
-label-open = %{A3:menu-open-1:}%{A1:menu-open-0:} %{A}%{A}
+label-open = %{A3:menu-open-1:}%{A1:menu-open-0:}%{A}%{A}
 label-close = 
 
 menu-0-0 = 
